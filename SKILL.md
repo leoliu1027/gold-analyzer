@@ -205,12 +205,33 @@ python app.py
 ```
 
 ### 方法4: 网络搜索补充数据 (必需)
-对于地缘政治、宏观经济、政策动向等数据,使用网络搜索:
+对于地缘政治、宏观经济、政策动向等数据,**必须使用网络搜索**:
 
+**原因**: 宏观数据(美联储利率、CPI、就业等)是公开网页数据,没有免费的API,需要通过网络搜索获取最新信息。
+
+**搜索关键词建议**:
 ```bash
-# 搜索最新黄金市场新闻
-# 关键词: "黄金价格 2026年3月", "美联储利率", "央行购金", "地缘政治 黄金"
+# 美联储利率
+"美联储利率 2026年3月" 或 "federal reserve rate latest"
+
+# 通胀数据
+"美国CPI 2026年2月" 或 "US CPI inflation latest"
+
+# 就业数据
+"美国失业率 2026" 或 "US unemployment rate latest"
+
+# 地缘政治
+"地缘政治 黄金" 或 "geopolitical gold"
+
+# 央行购金
+"央行购金 2026" 或 "central bank gold buying"
 ```
+
+**推荐数据源**:
+- 美联储: https://www.federalreserve.gov
+- 劳工部: https://www.bls.gov
+- 世界黄金协会: https://www.gold.org
+- 财经新闻: 新浪财经、东方财富等
 
 ## 个人背景评估维度
 
